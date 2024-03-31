@@ -1,0 +1,41 @@
+<svg width="1608" height="329" viewBox="0 0 1608 329" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M778.899 2C138.863 30.5539 -611.08 396.905 823.616 315.015C2224.58 235.05 1447.49 1.99971 778.899 2Z" stroke="url(#paint0_linear_3_285)" stroke-opacity="0.7" stroke-width="3"/>
+<g filter="url(#filter0_b_3_285)">
+<rect x="1101.46" y="268.555" width="49.536" height="49.536" rx="24.768" fill="white" fill-opacity="0.18"/>
+<rect x="1101.96" y="269.055" width="48.536" height="48.536" rx="24.268" stroke="white"/>
+<g clip-path="url(#clip0_3_285)">
+<path d="M1124.64 287.915L1130.39 293.177L1125.13 298.922" stroke="white" stroke-width="1.65277" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g filter="url(#filter1_b_3_285)">
+<rect width="49.536" height="49.536" rx="24.768" transform="matrix(-0.999502 0.0315603 0.0315603 0.999502 1075.74 273.785)" fill="white" fill-opacity="0.18"/>
+<rect x="-0.483971" y="0.515531" width="48.536" height="48.536" rx="24.268" transform="matrix(-0.999502 0.0315603 0.0315603 0.999502 1074.76 273.801)" stroke="white"/>
+<g clip-path="url(#clip1_3_285)">
+<path d="M1052.75 293.708L1047.62 299.565L1053.47 304.703" stroke="white" stroke-width="1.65277" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_b_3_285" x="1008.96" y="176.055" width="234.536" height="234.536" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="46.25"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_3_285"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_3_285" result="shape"/>
+</filter>
+<filter id="filter1_b_3_285" x="933.731" y="181.285" width="236.075" height="236.075" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="46.25"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_3_285"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_3_285" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_3_285" x1="892.5" y1="311.436" x2="880.5" y2="83.9356" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="0.775" stop-color="white" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="clip0_3_285">
+<rect width="26.4443" height="26.4443" fill="white" transform="matrix(-0.0437938 -0.999041 -0.999041 0.0437938 1140.87 305.954)"/>
+</clipPath>
+<clipPath id="clip1_3_285">
+<rect width="26.4443" height="26.4443" fill="white" transform="translate(1038.59 313.408) rotate(-93.7469)"/>
+</clipPath>
+</defs>
+</svg>
