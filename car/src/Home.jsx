@@ -7,7 +7,6 @@ import c5 from '/assets/c6.svg';
 import { motion, AnimatePresence } from 'framer-motion';
 import About from './About';
 import './App.css'
-import { FaAngleLeft } from "react-icons/fa6";
 const Carousel = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -45,8 +44,8 @@ const Carousel = ({ images }) => {
         </motion.div>
       </AnimatePresence>
       <img className='absolute bottom-10 w-full' src="/assets/trail.svg" alt="" />
-      <button className=" p-4 absolute bottom-14 opacity-0 right-[32vw]" onClick={goToPreviousSlide} title='previous'><FaAngleLeft /></button>
-      <button className="p-4 absolute bottom-16 opacity-0 right-[29vw]" onClick={goToNextSlide} title='next'><FaAngleLeft /></button>
+      <button className=" p-4 absolute bottom-14 opacity-0 right-[32vw]" onClick={goToPreviousSlide} title='previous'>Left</button>
+      <button className="p-4 absolute bottom-16 opacity-0 right-[29vw]" onClick={goToNextSlide} title='next'>Right</button>
     <About />
     </div> 
     </>
