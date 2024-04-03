@@ -22,8 +22,10 @@ const Carousel = ({ images }) => {
 
   return (
     <>
-    <div className="h-full w-full flex flex-col justify-center items-center" style={{ backgroundColor: images[currentIndex].backgroundColor }}>
-      <span className='text-7xl absolute top-36 left-36 uppercase rubik'>{images[currentIndex].title}</span>
+    <div className="h-full w-full flex flex-col justify-center items-center overflow-hidden" style={{
+          background: `linear-gradient(to top, rgba(0, 0, 0, 1.5), rgba(0, 0, 0, 0.2)), ${images[currentIndex].backgroundColor}`
+        }}>
+      <span className='text-3xl sm:text-7xl absolute sm:top-36 sm:left-36 uppercase rubik'>{images[currentIndex].title}</span>
       <div className='absolute top-36 right-56 flex gap-4'>
         <button className='px-4 py-2 border border-black rounded-full shadow-md'>Buy Now</button>
         <button className='px-4 py-2 border border-black rounded-full shadow-md'>View Details</button>
